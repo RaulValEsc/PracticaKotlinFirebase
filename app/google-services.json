@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "861999442352",
+    "project_id": "fir-kotlin-cf167",
+    "storage_bucket": "fir-kotlin-cf167.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861999442352:android:cafafb740482f0f7300e75",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861999442352-o0qfdkq17dk51roskdb6ohonn62lir6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP9Pg5Of1JcaNQdoZxJDp4CX2crhtb-ZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861999442352-o0qfdkq17dk51roskdb6ohonn62lir6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861999442352:android:b7aa0b17dbdffeb5300e75",
+        "android_client_info": {
+          "package_name": "com.example.practicakotlinfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861999442352-o0qfdkq17dk51roskdb6ohonn62lir6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP9Pg5Of1JcaNQdoZxJDp4CX2crhtb-ZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861999442352-o0qfdkq17dk51roskdb6ohonn62lir6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
