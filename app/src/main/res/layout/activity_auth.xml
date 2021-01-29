@@ -8,6 +8,7 @@
     tools:context=".AuthActivity">
 
     <LinearLayout
+        android:id="@+id/AuthLayout"
         android:layout_width="0dp"
         android:layout_height="729dp"
         android:layout_marginStart="16dp"
@@ -17,6 +18,7 @@
         android:layout_marginRight="16dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -90,6 +92,23 @@
             android:gravity="center|start"
             android:paddingLeft="16dp"
             android:text="   Google"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/AnonimoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/white"
+            android:drawableStart="@mipmap/anonimo"
+            android:gravity="center|start"
+            android:paddingLeft="16dp"
+            android:text="  Anónimo"
             android:textColor="@color/colorPrimaryDark" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
