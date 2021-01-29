@@ -24,12 +24,12 @@ class AuthActivity : AppCompatActivity() {
     private fun setup(){
         title = "Autenticación"
 
-        LogOutButton.setOnClickListener {
+        SignUpButton.setOnClickListener {
             if(etEmail.text.isNotEmpty() && etContraseñaEmail.text.isNotEmpty()){
                 FirebaseAuth.getInstance().createUserWithEmailAndPassword(etEmail.text.toString(),
                     etContraseñaEmail.text.toString()).addOnCompleteListener{
                         if(it.isSuccessful){
-                            showHome(it.result?.user?.email ?:"",ProviderTipo.BASIC)
+                            showHome(it.result?.user?.email ?:"",ProviderTipo.CORREO)
                         }else{
                             showAlert()
                         }
@@ -41,7 +41,7 @@ class AuthActivity : AppCompatActivity() {
                 FirebaseAuth.getInstance().signInWithEmailAndPassword(etEmail.text.toString(),
                     etContraseñaEmail.text.toString()).addOnCompleteListener{
                     if(it.isSuccessful){
-                        showHome(it.result?.user?.email ?:"",ProviderTipo.BASIC)
+                        showHome(it.result?.user?.email ?:"",ProviderTipo.CORREO)
                     }else{
                         showAlert()
                     }
@@ -64,5 +64,6 @@ class AuthActivity : AppCompatActivity() {
             putExtra("email", email)
             putExtra("provider", provider.name)
         }
+        startActivity(homeIntent)
     }
 }
